@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!--Creating<!DOCTYPE html>
 <html>
     <head>
 
@@ -133,5 +133,56 @@ debitis deleniti, repudiandae cum!\
         <td>Closed</td>
     </tr>
 </table>
+<br> <br>
+<a href="https://www.google.com/"
+target="_blank"
+title="Google"><button style="font-size: 25px; background-color:aquamarine">
+    Click Me
+
+</button>
+</a>
+<br> <br>
+<form action="index.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Username" minlength="6" maxlength="15" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password"  placeholder="Password" minlength="8" maxlength="20" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Email" required><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+    <label for="bday">Birthday:</label>
+    <input type="date" id="bday" required><br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" max="10" required><br><br>
+    <label for="title">Title</label>
+    <label for="Mr" id="Mr">Mr</label>
+    <input type="radio" id="Mr" value="Mr" name="title">
+    <label for="Mrs" id="Mrs">Mrs</label>
+    <input type="radio" id="Mrs" value="Mrs" name="title">
+    <label for="PhD." id="PhD">PhD</label>
+    <input type="radio" id="PhD" value="PhD" name="title">
+    <br> <br>
+    <label for="country">Country:</label>
+    <input type="text" id="country" placeholder="Country" required><br><br>
+    <label for="gender">Gender:</label>
+    <input type="text" id="gender" placeholder="Gender" required><br><br>
+    <!--Creating a drop-down menu-->
+    <label for="payment">Payment:</label>
+    <select id="payment">
+        <option value="Visa" id="Visa">Visa</option>
+        <option value="MasterCard" id="MasterCard">MasterCard</option>
+        <option value="PayPal" id="PayPal">PayPal</option>
+        <option value="Cash on Delivery" id="Cash on Delivery">Cash on Delivery</option>
+    </select>
+    <input type="reset"> <br> <br>
+
+    <input type="submit">
+
+</form>
+
+
+
     </body>
 </html
