@@ -142,7 +142,7 @@ title="Google"><button style="font-size: 25px; background-color:aquamarine">
 </button>
 </a>
 <br> <br>
-<form action="index.php" method="POST">
+<form action="index.php" method="POST" enctype="multipart/form-data">
     <label for="username">Username:</label>
     <input type="text" id="username" placeholder="Username" minlength="6" maxlength="15" required><br><br>
     <label for="password">Password:</label>
@@ -175,7 +175,13 @@ title="Google"><button style="font-size: 25px; background-color:aquamarine">
         <option value="MasterCard" id="MasterCard">MasterCard</option>
         <option value="PayPal" id="PayPal">PayPal</option>
         <option value="Cash on Delivery" id="Cash on Delivery">Cash on Delivery</option>
-    </select>
+    </select><br><br>
+    <label for="subscription">Subscription</label>
+    <input type="checkbox" id="subscription"><br><br>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" rows="3" cols="25"></textarea><br><br>
+    <label for="files">Files:</label>
+    <input type="file" id="files" accept="image/jpeg, image/png, document/docx, document/pdf"><br><br>
     <input type="reset"> <br> <br>
 
     <input type="submit">
