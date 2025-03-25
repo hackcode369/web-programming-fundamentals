@@ -1,18 +1,34 @@
-.pagination{
-    text-align: center;
+
+#title{
+    font-size: 20px;
+    color: green;
+    background-color: black;
+    padding: auto;
+    margin: auto;
+    border: solid;
 }
-.pagination a{
-     color: greenyellow;
-     text-decoration: none;
-     padding: 25px, 60px;
-     display: inline-block;
+#paragraph2{
+    font-size: 15px;
+    color: goldenrod;
+    background-color: black;
+    padding: auto;
+    margin: auto;
+    border: solid;
 }
-.pagination a.active{
-    background-color: rgb(121, 243, 121);
-    font-weight: bold;
-    border-radius: 10px;
+#paragraph3{
+    font-size: 15px;
+    color: greenyellow;
+    background-color: black;
+    padding: auto;
+    margin: auto;
+    border: solid;
 }
-.pagination a:hover:not(.acive){
-    background-color: rgb(126, 125, 125);
-    border-radius: 10px;
+.odd{
+    font-size: 15px;
+    color: greenyellow;
+    background-color: black;
+    padding: auto;
+    margin: auto;
+    border: solid;
+
 }
