@@ -1,11 +1,22 @@
-
+h1{
+    font-size: 100px;
+    text-shadow: 3px 3px 2px hwb(86 2% 0%) ;
+    color: red;
+}
+#Box1{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 3px hsl(0, 76%, 39%);
+}
 #title{
     font-size: 20px;
     color: green;
     background-color: black;
     padding: auto;
     margin: auto;
-    border: solid;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
 }
 #paragraph2{
     font-size: 15px;
@@ -15,20 +26,54 @@
     margin: auto;
     border: solid;
 }
-#paragraph3{
-    font-size: 15px;
-    color: greenyellow;
-    background-color: black;
-    padding: auto;
-    margin: auto;
-    border: solid;
-}
+
 .odd{
     font-size: 15px;
     color: greenyellow;
     background-color: black;
     padding: auto;
     margin: auto;
-    border: solid;
+    border: 5px dashed goldenrod;
+    border-radius: 15px;
 
+}
+
+/* Margin Implementation */
+.box{
+    border: 5px solid green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin:50px;
+    height: 250px;
+    width: 250px;
+}
+#box1{
+    background-color: rgb(221, 80, 80);
+}
+#box2{
+    background-color: rgb(228, 243, 95);
+}
+#box4{
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    float: auto;
+}
+p{
+    font-size: 15px;
+    border: 3px solid blue;
+}
+div{
+    font-size: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    display: block;
+}
+span{
+    font-size: 15px;
+    background-color: blue;
+    display: block;
+    height: 100px;
+    width: 100px;
 }
